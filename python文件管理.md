@@ -79,3 +79,11 @@ ssl._create_default_https_context = ssl_create_unverified_context
 |`.scale2x`|快速放大一倍图像|
 |`.smoothscale`|平滑的缩放图像（精准）|
 |`.chop`|裁剪图像|
+
+
+#### draw 绘制基本图形
+
+|函数|作用|
+|---|---|
+|`.rect(Surface, color, Rect, width = 0)`|`rect`指定范围`(left, top, width, whight)`|
+|`.polygon(Surface, color, pointlist, width = 0)`|`pointlist`一个个点的元组|
